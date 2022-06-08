@@ -1,0 +1,259 @@
+body{
+margin: 0;
+padding: 0;
+}
+/* Header da pag */
+.gold{
+    width: 100%;
+    height: 115px;
+    background-color: gold;
+
+}
+header{
+    background-color: #202020;
+    width: 100%;
+    height: 130px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.alinhar{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img.logo{
+    width: 14%;
+    height: 65%;
+    margin-top: 1%;
+}
+
+.header{
+    
+}
+.header:hover{
+    transform: scale(1.2);
+}
+
+.conteudo{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+.botao.header{
+    background-color: gold;
+    border: 2px solid white;
+    border-radius: 10px;
+    position: absolute;
+    right: 3%;
+    top: 45%;
+    padding: 20px 0 20px 0;
+}
+div.botao.header:hover{
+    background-color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/* Parte principal */
+main{
+    background-color: #202020;
+    margin-top: 8%;
+}
+.home{
+    padding: 2%;
+}
+
+.txtHome{
+    font-size: 25px;
+    color: gold;
+    margin-top: 5%;
+}
+
+.quadrado{
+    width: 300px;
+    height: 500px;
+    background-color: white;
+    border: 2px solid #202020;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+.cima{
+    background-color: gold;
+    text-align: center;
+    margin-top: 5%;
+
+}
+
+.meio{
+    background-color: #202020;
+    text-align: center;
+    margin-top: 7%;
+    padding: 3%;
+    border: 1px solid gold;
+    border-radius: 5px;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.meio:hover{
+    background-color: white;
+    transform: scale(1.1);
+}
+
+.baixo{
+    background-color: #ededed;
+    margin-top: 10%;
+}
+
+.baixo li{
+    padding: 3%;
+}
+
+
+.letra{
+    color: black;
+    margin: 0;
+    padding: 2%;
+}
+
+.ladoalado{
+    margin-top: 2%;
+    display: flex;
+    margin-left: 6%;
+}
+
+/* footer da pag */
+footer{
+    background-color: #202020;
+    height: 350px;
+    width: 100%;
+}
+
+a.link{
+    color: white;
+    text-decoration: none;
+}
+
+.fim{
+    display: flex;
+}
+
+.fum{
+    text-align: center;
+    padding-top: 3%;
+}
+
+.fdois{
+    margin-left: 100px;
+    color: white;
+}
+
+.ftres{
+    margin-left: 700px;
+    color: white;
+}
+.ftresum{
+    color:white;
+}
+
+.fquatro{
+    color:white;
+    text-align: center;
+}
+
+footer li{
+    list-style-type: none;
+    color: white;
+}
+
+h4{
+    font-size: 15px;
+    margin: 0;
+}
+h3{
+    font-size: 20px;
+    margin: 0;
+}
+
+h2{
+    color: gold;
+    font-size: 30px;
+    margin: 0;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+}
+
+/* login */
+
+.entrar{
+    background-color: white;
+    padding: 6%;
+    margin-top: 2%;
+}
+
+fieldset{
+    display: flex;
+    padding: 50px;
+    background-color: #ededed;
+}
+
+#txtEmail{
+    border: 2px solid #202020;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+#txtSenha{
+    border: 2px solid #202020;
+    border-radius: 10px;
+    padding: 5px;
+    width: 100%;
+}
+
+.check{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.bot{
+    margin-top: 50px;
+    margin-left: 20px;
+    border: 2px solid #202020;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: white;
+}
+.bot:hover{
+    background-color: #ededed;
+}
+
+/* planos
+ */
+
+ .planos{
+     margin-top: 7.5%;
+     background-color: #202020;
+     ;
+ }
+
+ .arrumar{
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .espaço{
+     margin-left: 9%;
+     padding: 2%;
+ }
